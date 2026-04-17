@@ -6,3 +6,80 @@ background-color: aliceblue;
 h1{
     color: brown;
 }
+
+/* Contenedor de la barra */
+.navbar {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 25px;
+}
+
+/* Estilo del Logo */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo span {
+    font-size: 14px;
+}
+
+/* Elementos del menú (Icono + Texto) */
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+/* Textos pequeños de ubicación */
+.location-text p {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+/* Línea vertical divisoria */
+.divider {
+    width: 1px;
+    height: 30px;
+    background-color: #444;
+}
+
+/* Buscador */
+.search-container {
+    display: flex;
+    flex-grow: 1;
+    max-width: 700px;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-container button {
+    background-color: #666;
+    border: none;
+    color: white;
+    padding: 0 20px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.search-container button:hover {
+    background-color: #888;
+}
